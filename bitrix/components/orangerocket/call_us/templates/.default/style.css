@@ -1,0 +1,25 @@
+.call-us-wrapper{
+	font-size: 14px;
+	height: 40px;
+	background-image: url('images/talk.png');
+	background-repeat: no-repeat;
+	background-position: 12% 70%;
+}
+.call-us-manager{
+	float: left;
+	width: 50px;
+	height: 40px;
+	background-image: url("images/manager.png");
+	background-repeat: no-repeat;
+
+}
+.call-us-cloud{
+	float: left;
+	background-color:orangered;
+	padding: 10px 5px;
+	border-radius: 10px;
+	color: #fff;
+	min-width: 219px;
+	text-align: center;
+
+}

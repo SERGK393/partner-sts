@@ -1,0 +1,86 @@
+.nss-wrapper{
+	width: 630px;	
+	overflow: hidden;
+	border:1px solid silver;
+		}
+		
+.nss-items-wrapper{
+	position: relative;
+	height: 270px;
+
+}
+	
+.nss-items-line{
+	position: absolute;
+	left: 0px;
+	}
+.nss-items-line ul, 
+.nss-items-line li,
+.nss-controlPanel ul,
+.nss-controlPanel ul li{
+	padding: 0;
+	margin: 0;
+	}
+
+.nss-items-line ul li{
+	width: 630px;
+	position: relative;
+	display: block;
+	float: left;
+	list-style: none;
+	text-align: center;
+}
+.nss-items-line ul li a{
+	display: block;
+	padding: 5px;
+	color:#fff;
+	background-color: orangered;
+	border:2px solid #fff;
+	position: absolute;
+	left:10px;
+	top:215px;
+}
+
+.nss-controlPanel ul li:before{
+	content: " ";
+	display: block;
+	width: 10px;
+	height:10px;
+	background-color: red;
+	position: absolute;
+	top:-4px;
+	left:9px;
+	display: block;
+	
+}
+
+
+
+.nss-controlPanel ul li{
+	/*display: table-cell;*/
+	border:1px solid  silver;
+	text-align: center;
+	font-size: 12px;
+	padding: 8px;
+	box-sizing: border-box;
+	overflow: hidden;
+	width: 20.31%;
+	height:53px;
+	display: block;
+	float: left;
+	list-style: none;
+	background-color:#f5f5f5;
+	color: #707070;
+	cursor:pointer;
+	position: relative;
+	margin:-1px;
+
+}
+	.nss-controlPanel ul li:hover{
+		background-color:rgb(223, 223, 223);
+	}
+.nss-controlPanel ul li div {
+	height: 3px;
+	background-color: red;
+	padding:2px;
+}	

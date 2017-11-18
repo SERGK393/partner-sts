@@ -1,0 +1,52 @@
+
+	.wahm-title{
+		font-size: 14px;
+		color:rgb(255, 111, 15);
+		text-align: center;
+		padding:5px 0 5px;
+		position: relative;
+	}
+	.wahm-cont{
+		font-size: 12px;
+		text-align: left;
+		padding-left: 62px;
+		background-position: 4% 21%;
+		background-repeat: no-repeat;
+		
+		
+	}
+	.wahm-curr{
+		min-height: 44px;
+		vertical-align: middle;
+		background-image: url("/bitrix/components/orangerocket/when_and_how_much/images/flycar.png");
+		
+	}
+	.wahm-point{
+		background-image: url("/bitrix/components/orangerocket/when_and_how_much/images/flymarc.png");
+
+		
+	}
+	.wahm-point-btn{
+		padding: 2px 7px;
+		background-color: #46bb90;
+		border: none;
+		color: #ffffff;
+		border-radius: 3px;
+		margin-top:3px;
+		margin-left: -42px;
+		cursor: pointer;
+		font-size: 11px;
+	}
+	.wahm-point-btn--free{
+		padding: 2px 7px;
+		background-color: #46bb90;
+		border: none;
+		color: #ffffff;
+		border-radius: 3px;
+		margin-top:3px;
+		cursor: pointer;
+		font-size: 12px;
+	}
+	.freeDelStick{
+		margin: 10px 0 10px;
+	}

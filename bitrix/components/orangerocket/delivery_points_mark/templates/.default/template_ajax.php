@@ -1,0 +1,1 @@
+<div class="del-points-count"><a href="/punkty-vydachi/"><?=$arResult['ctn']?></a></div><div class="del-points-s"><a href="/punkty-vydachi/"><?=$arResult['pnkt']?> выдачи</a></div>

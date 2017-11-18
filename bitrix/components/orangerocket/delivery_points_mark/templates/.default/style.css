@@ -1,0 +1,22 @@
+	.del-points-count{
+		width: 18px;
+		text-align: center;
+		color: white;
+		background-color: rgb(255, 97, 0);		
+		border-radius:5px;
+		float: left;
+		margin-top: 4px;
+	}
+	.del-points-s{
+		float: left;
+		color: white;
+		font-size: 13px;
+		font-style:italic;
+		padding: 3px 0px 0px 0px;
+		margin-left: 3px;
+		border-bottom: dotted 1px white;
+
+	}
+		.del-points-count a,.del-points-s a {
+		color: white;
+	}

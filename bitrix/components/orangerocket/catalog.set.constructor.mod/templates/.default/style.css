@@ -1,0 +1,83 @@
+.or_ext_products p{padding:0}
+.or_ext_products{
+    margin: 10px 2px;
+    background-color: #F5F5F5;
+    border: 1px solid silver;
+    border-radius: 5px;
+    padding: 5px;
+}
+.ext_prod_element{
+    padding: 2px;
+    min-height: 40px;
+    position: relative;
+}
+.ext_prod_element:after{
+    content:'';
+    display: table;
+    clear: both;
+}
+.or_ext_products .spoiler{
+    color: #000;
+    min-height: 20px;
+    border-bottom:1px solid silver;
+}
+.or_ext_products .spoiler:nth-child(2n) label{text-decoration: underline;}
+.or_ext_products .spoiler>p{
+    border-bottom: 1px solid silver;
+    cursor: pointer;
+    font-weight: 700;
+    /*width: 80%;*/
+    margin: 0;
+    padding-left: 10px;
+}
+.or_ext_products .spoiler.hide .spo-open{
+    display: inline;
+    padding-left: 10px;
+    color: #999;
+    text-decoration: none;
+    font-weight: 500;
+    font-style: italic;
+}
+.or_ext_products .spoiler .spo-open{
+    display: none;
+}
+
+.ext_prod_element .label{
+    float: left;
+    /*width: 83%;*/
+    margin: 10px 0;
+}
+.ext_prod_element .image{
+    float: left;
+    margin: 2px;
+    /*width: 15%;*/
+}
+.ext_prod_element .full-image{
+    border: 1px solid silver;
+    background-color: white;
+    float: left;
+    position: absolute;
+    left: 100px;
+    top: -100px;
+    z-index: 2;
+}
+.ext_prod_element .label .delete{
+    display: none;
+    color: red;
+    font-weight: 700;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.ext_prod_element .image>img{
+    border: 1px solid silver;
+    background-color: white;
+    float:left;
+}
+.ext_prod_element.first{
+    min-height: 17px;
+}
+.ext_prod_element.first>label{
+    font-weight: 900;
+    line-height: 50px;
+    font-size: 23px;
+}

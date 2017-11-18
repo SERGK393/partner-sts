@@ -1,0 +1,10 @@
+.delivery_package {
+background-color: #F5F5F5;
+padding: 10px;
+border-radius: 5px;
+border: 1px solid silver;
+margin-bottom: 15px;
+}
+.delivery_package--header{
+	font-size: 16px;
+}

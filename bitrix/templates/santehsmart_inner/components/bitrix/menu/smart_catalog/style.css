@@ -1,0 +1,20 @@
+.left-menu .menu-section{
+    display: none;
+}
+.left-menu ul>li{
+    display: none;
+}
+#left-menu{
+    position: absolute;
+    z-index: 1000;
+}
+#left-menu:hover{
+    background-color: #fafafa;
+}
+.sub-menu{
+	font-size: 15px;
+}
+.sub-button-opn{
+	border-bottom-left-radius: 0 !important;
+	border-bottom-right-radius: 0 !important;
+}

@@ -1,0 +1,32 @@
+<?
+$MESS["CATALOG_SET_BUY"] = "Купить";
+$MESS["CATALOG_SET_DISCOUNT_DIFF"] = "(экономия <span class=\"bx_set_discount_diff_price\">#PRICE#</span>)";
+$MESS["CATALOG_SET_BUY_SET"] = "Купить набор";
+$MESS["CATALOG_SET_CONSTRUCT"] = "Составить свой набор";
+$MESS["CATALOG_SET_POPUP_LOADER"] = "Загрузка...";
+$MESS["CATALOG_SET_POPUP_TITLE_BAR"] = "Собери собственный набор";
+$MESS["CATALOG_SET_POPUP_TITLE"] = "Добавьте аксессуар в набор";
+$MESS["CATALOG_SET_POPUP_DESC"] = "Перетащите любой товар с помощью мышки в пустое поле или просто нажмите на него";
+$MESS["CATALOG_SET_SUM"] = "Итого";
+$MESS["CATALOG_SET_DISCOUNT"] = "Скидка";
+$MESS["CATALOG_SET_WITHOUT_DISCOUNT"] = "Цена без скидки";
+$MESS["CATALOG_SET_ADDED2BASKET"] = "Набор был добавлен в корзину";
+$MESS["CATALOG_SET_BUTTON_BUY"] = "Перейти в корзину";
+$MESS["EXT_PRODUCT_HEADER"] = "Выберите комплектацию";
+$MESS["EXT_PRODUCT_GM"] = "Гидромассаж";
+$MESS["EXT_PRODUCT_AERO"] = "Аэромассаж";
+$MESS["EXT_PRODUCT_SLIV"] = "Слив-перелив";
+$MESS["EXT_PRODUCT_SPINA"] = "Спинной массаж";
+$MESS["EXT_PRODUCT_STOR"] = "Шторы для ванн";
+$MESS["EXT_PRODUCT_PODGOL"] = "Подголовники";
+$MESS["EXT_PRODUCT_RUCH"] = "Ручки";
+$MESS["EXT_PRODUCT_CHROME"] = "Хромотерапия";
+$MESS["EXT_PRODUCT_PULT"] = "Пульты управления";
+$MESS["EXT_PRODUCT_SVET"] = "Подсветка";
+$MESS["EXT_PRODUCT_PODOGR"] = "Подогрев воды";
+$MESS["EXT_PRODUCT_COMP"] = "Комплектация";
+$MESS["EXT_PRODUCT_SYS"] = "Система";
+$MESS["EXT_PRODUCT_KAR"] = "Карнизы";
+$MESS["EXT_PRODUCT_PANEL"] = "Фронтальная панель";
+$MESS["EXT_PRODUCT_O"] = "Доп. оборудование";
+?>

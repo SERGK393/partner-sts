@@ -1,0 +1,37 @@
+.bx_login_block{ 	float: left; 	/*padding-left: 35px; */	 } a.bx_login_top_inline_link{ 	color: white; 	vertical-align: middle; 	text-decoration: none; 	font-size: 13px; 	/*line-height: 13px;*/ 	margin: 0 8px 0 5px; } a.bx_login_top_inline_link:hover{text-decoration: underline} /*.bx_login_top_inline_icon{ 	display: inline-block; 	margin-left: 15px; 	width: 16px; 	height: 13px; 	background: url('images/gui.png') no-repeat bottom center; 	line-height: 13px; }*/ .bx_login_popup_form { 	min-width:310px; 	min-height:350px; 	padding: 0 0 10px 10px; }
+
+.bx_login_block .link-first,
+.bx_login_block .link-second{
+    padding: 5px;
+    margin: -4px;
+    display: inline-block;
+    background-color: #ff4500;
+    border: solid 1px #d01600;
+    /*border-radius: 6px;*/
+    color: #fff;
+    font-size: 15px;
+    box-shadow: inset 1px -1px 5px #ff5510;
+}
+.bx_login_block .link-first{
+    border-radius: 6px 0 0 6px;
+    padding-left: 35px;
+    background: url('images/gui.png') no-repeat 10% center #ff4500;
+}
+.bx_login_block .link-second{
+    border-radius: 0 6px 6px 0;
+    margin-left: -1px;
+}
+.bx_login_block .link-first:hover,
+.bx_login_block .link-second:hover{
+    background-color: #e02600;
+}
+.bx_login_block .link-first:active,
+.bx_login_block .link-second:active{
+    background-color: #d01600;
+}
+.bx_login_block a{
+    color: #fff;
+}
+.bx_login_block a:hover{
+    text-decoration: none;
+}

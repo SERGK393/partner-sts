@@ -1,0 +1,255 @@
+#ove_mainmenu_table {
+  padding: 0px;
+  line-height: 0px;
+  font-size: 0px;
+  display: inline-block;
+}
+
+#ove_mainmenu_table li a {
+  line-height: 18px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: bold;
+  padding: 10px;
+  display: block;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+#ove_mainmenu_table li div.buttonbg {
+  height: 40px;
+  width: auto;
+  line-height: 0;
+  background-color: transparent;
+  padding: 0;
+  text-align: center;
+}
+
+#ove_mainmenu_table li:hover div.buttonbg a, #ove_mainmenu_table li.expanded a.topitem, #ove_mainmenu_table li.active a.topitem,
+#ove_mainmenu_table li.itemhot a.topitem, #ove_mainmenu_table li a:hover {
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
+#ove_mainmenu_table li.expanded div.buttonbg, #ove_mainmenu_table li.active div.buttonbg, #ove_mainmenu_table li.itemhot div.buttonbg, #ove_mainmenu_table li:hover div.buttonbg {
+  background-color: transparent;
+  box-shadow: none;
+  border-color: #800421;
+}
+
+#ove_mainmenu_table {
+  padding: 0 0 0 26px;
+  width: 848px;
+  margin-left: 1px;
+  background-image: url('button.png');
+  background-color: #B50831;
+  background-repeat: repeat-x;
+  background: -moz-linear-gradient(top, #0089D3 0%, #006EA0 100%); 
+  background: -webkit-linear-gradient(top, #0089D3 0%, #006EA0 100%); 
+  background: -ms-linear-gradient(top, #0089D3 0%, #006EA0 100%); 
+  background: linear-gradient(top, #0089D3 0%, #006EA0 100%);
+  position: absolute;
+  z-index: 9990;
+}
+
+#ove_mainmenu_table ul li a {
+  color: #FFFFFF;
+  font-size: 13px;
+  line-height: 16px;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+  display: block;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+#ove_mainmenu_table ul li:hover > a {
+  color: #FFFFFF;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+#ove_mainmenu_table ul li.subexpanded a.subexpanded, #ove_mainmenu_table ul li.subitemhot a.subitemhot, #ove_mainmenu_table ul li a:hover {
+  color: #FFFFFF;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+#ove_mainmenu_table ul li:hover, #ove_mainmenu_table ul li.subexpanded, #ove_mainmenu_table ul li.subitemhot {
+  border-color: transparent;
+  background-color: #1E6597;
+  box-shadow: none;
+}
+
+#ove_mainmenu_table ul {
+  margin: 0;
+  border-color: #870724;
+  padding: 0;
+  font-size: 0;
+  border-radius: 0 6px 6px 6px;
+}
+
+#ove_mainmenu_table ul li a {
+  padding: 10px 18px 10px 16px;
+  text-align: left;
+}
+
+#ove_mainmenu_table ul li.separator {
+  padding: 10px;
+  cursor: default;
+  background: none;
+  box-shadow: none;
+  border-width: 0;
+}
+
+#ove_mainmenu_table ul li.separator div {
+  border-top: 1px solid #C0C0C0;
+  font-size: 0px;
+}
+
+#ove_mainmenu_table ul li {
+  height: auto;
+  width: auto;
+  text-align: left;
+  line-height: 0;
+  font-size: 0;
+  cursor: pointer;
+  float: none;
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+  background-color: transparent;
+}
+
+#ove_mainmenu_table ul {
+  box-shadow: 0 0 5px -1px #333333;
+}
+#ove_mainmenu_table a img {
+  border: none;
+}
+
+#ove_mainmenu_table li {
+  list-style: none;
+  float: left;
+}
+
+#ove_mainmenu_table.css_menu li {
+  position: relative;
+  padding-left: 0;
+}
+
+#ove_mainmenu_table.css_menu ul li:hover > ul {
+  opacity: 1;
+}
+
+#ove_mainmenu_table.css_menu li:hover > ul {
+  top: 100%;
+  left: 0;
+  right: auto;
+  opacity: 1;
+  transform: scale(1,1);
+  -webkit-transform: scale(1,1);
+  -moz-transform: scale(1,1);
+  -ms-transform: scale(1,1);
+}
+
+#ove_mainmenu_table.css_menu ul li:hover > ul {
+  top: 0px;
+  left: 100%;
+  right: auto;
+}
+
+#ove_mainmenu_table.css_menu ul {
+  transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -ms-transition-duration: 0.3s;
+  transition-property:transform;
+  -webkit-transition-property:-webkit-transform;
+  -moz-transition-property:-moz-transform;
+  -ms-transition-property:-ms-transform;
+  transform-origin: 0 0;
+  transform: scale(1, 0.1);
+  -webkit-transform-origin: 0 0;
+  -webkit-transform: scale(1, 0.1);
+  -moz-transform-origin: 0 0;
+  -moz-transform: scale(1, 0.1);
+  -ms-transform-origin: 0 0;
+  -ms-transform: scale(1, 0.1);
+}
+
+#ove_mainmenu_table ul {
+  position: absolute;
+  top:-99999px;
+  z-index: 4000;
+}
+
+#ove_mainmenu_table ul ul {
+  position: absolute;
+  z-index: 5000;
+}
+
+#ove_mainmenu_table ul li.first_item {
+  border-radius: 0 6px 0 0;
+}
+
+#ove_mainmenu_table ul li.last_item {
+  border-radius: 0 0 6px 6px;
+}
+
+#ove_mainmenu_table .submenu_arrow {
+  margin-left: 8px;
+}
+
+.ove_mainmenu_arrow { 
+  background-image: url('arrow.png'); 
+  background-repeat: no-repeat; 
+  background-position: right center; 
+  height: 100%; 
+}
+
+#ove_mainmenu_table div.gradient_button { 
+  /*background-image: url('button.png'); */
+  background-repeat: repeat-x; 
+  background-color: #1F6698; 
+  /*
+  background: -moz-linear-gradient(top, #0C8FD1 0%, #0077B1 100%); 
+  background: -webkit-linear-gradient(top, #0C8FD1 0%, #0077B1 100%); 
+  background: -ms-linear-gradient(top, #0C8FD1 0%, #0077B1 100%); 
+  background: linear-gradient(top, #0C8FD1 0%, #0077B1 100%); */
+} 
+
+#ove_mainmenu_table li:hover div.gradient_button, #ove_mainmenu_table li.expanded div.gradient_button, #ove_mainmenu_table li.active div.gradient_button, #ove_mainmenu_table li.itemhot div.gradient_button {  
+  /*background-image: url('button_hover.png'); */
+  background-repeat: repeat-x; 
+  background-color: #429ADA; 
+  
+  background: -moz-linear-gradient(top, #5ABDE8 0%, #009BD9 100%); 
+  background: -webkit-linear-gradient(top, #5ABDE8 0%, #009BD9 100%); 
+  background: -ms-linear-gradient(top, #5ABDE8 0%, #009BD9 100%); 
+  background: linear-gradient(top, #5ABDE8 0%, #009BD9 100%); 
+} 
+
+#ove_mainmenu_table ul.gradient_menu { 
+  /*background-image: url('menu_bg.png'); */
+  background-repeat: repeat-x; 
+  background-color: #1F6698; 
+  
+  background: -moz-linear-gradient(top, #5ABDE8 0%, #009BD9 100%); 
+  background: -webkit-linear-gradient(top, #5ABDE8 0%, #009BD9 100%); 
+  background: -ms-linear-gradient(top, #5ABDE8 0%, #009BD9 100%); 
+  background: linear-gradient(top, #5ABDE8 0%, #009BD9 100%);
+} 
+
+#ove_mainmenu_table li a.button_2, #ove_mainmenu_table li div a.button_2 { 
+  padding-right: 24px; 
+} 
+

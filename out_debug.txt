@@ -1,0 +1,19 @@
+Array
+(
+    [Function] => TransResponse
+    [Result] => 0
+    [RC] => 00
+    [Amount] => 1944.00
+    [Currency] => RUB
+    [Order] => 1011231
+    [RRN] => 730387399012
+    [IntRef] => D3582B188EEFD8F9
+    [AuthCode] => 975653
+    [TrType] => 21
+    [PAN] => 
+    [Terminal] => 00038867
+    [BackRef] => 
+    [TextMessage] => Approved
+    [CardholderName] => 
+    [ECI] => 
+)

@@ -1,0 +1,16 @@
+.chosen-rtl .chosen-drop { left: -9000px; }
+
+/*если это форма поиска, то отменяем overflow: hidden;*/
+.adm-filter-content {overflow:visible !important;}
+
+div.sh_old {
+width: 20px;
+height: 20px;
+cursor: pointer;
+background-image: url(images/arrow-v.png);
+background-position: 100% 0%;
+background-repeat: no-repeat;
+display: inline-table;
+vertical-align: top;
+margin-top: 5px;
+}

@@ -1,0 +1,33 @@
+.waitwindow{
+    background: none;
+    border: none;
+}
+#fast-buy input[type=text]{
+box-shadow: 0px 4px 7px rgb(139, 139, 139)inset;
+border-radius: 5px;
+font-size: 16px;
+border: none;
+line-height: 1.5;
+margin-top: 10px;
+width: 185px;	
+}
+#fast-buy-container h6{
+	margin-top:5px;
+	
+}
+#fast-buy{
+	margin: 10px 0 0 0;
+}
+#fast-buy input[type=submit]{
+	
+background:linear-gradient(to bottom, #FCA544 0%,rgba(255, 82, 0, 1) 70%,rgba(245, 72, 48, 1) 100%);
+background:webkit-gradient(linear, left top, left bottom, color-stop(0%,#FCA544), color-stop(70%,rgba(255, 82, 0, 1)), color-stop(100%,rgba(245, 72, 48, 1)));
+background:webkit-linear-gradient(top, #FCA544 0%,rgba(255, 82, 0, 1)) 70%,rgba(245, 72, 48, 1) 100%);
+color: white;
+border: none;
+border-radius: 5px;
+padding: 6px;
+float: right;
+margin: 9px 22px 0px 0px;
+cursor:pointer;
+}

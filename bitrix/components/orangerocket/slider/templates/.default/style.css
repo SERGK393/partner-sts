@@ -1,0 +1,6 @@
+#sldr-cmp{
+    position: relative;
+}
+#sldr-cmp>div{
+    position: absolute
+}
